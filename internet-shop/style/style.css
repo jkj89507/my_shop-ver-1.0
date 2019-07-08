@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(226, 226, 226);
+}
+
+.pannel {
+    width: 96%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 0.1%;
+    background-color: rgb(137, 136, 170);
+    margin: 5px 2% 10px 2%;
+    text-align: center;
+}
+
+.phone_number>h2, .about_us>h2{
+    font-size: 1.5vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgba(255, 255, 255, 0.747);
+    margin-top: 15px;
+}
+
+.logo>h1 {
+    font-size: 2.5vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgba(255, 255, 255, 0.747);
+    margin-top: 15px;
+}
+
+.logo, .phone_number, .about_us{
+    height: auto;
+    border: 0px outset rgba(37, 37, 37, 0.541);
+    border-width: 0px 1px 0px 0px;
+}
+
+.content1{
+    background: url(../img/RW9pP8f9mDc.jpg) no-repeat center;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.445);
+    width: 96%;
+    height: 570px;
+    margin: 0% 2% 10px 2%;
+    text-align: center;
+}
+
+.content1>h1 {
+    width: 50%;
+    font-size: 6.5vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgba(255, 255, 255, 0.829);
+    padding: 10% 25% 2% 25%;
+}
+
+.content2 {
+    width: 96%;
+    margin: 0% 2% 10px 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 1%;
+}
+
+.block1, .block2, .block3, .block4 {    
+    padding: 0% 1% 0% 1%;
+    height: auto;
+    grid-template-rows: 300px 50px 50px;
+    grid-row-gap: 10px;
+    border: 1px solid rgba(102, 102, 102, 0.842);
+}
+
+.block1>img, .block2>img, .block3>img, .block4>img {
+    width: 100%;
+    height: auto;
+}
+
+.block1>h2::before, .block2>h2::before, .block3>h2::before, .block4>h2::before{
+    content: "-";
+}
+
+.block1>h2::after, .block2>h2::after, .block3>h2::after, .block4>h2::after{
+    content: " руб.";
+}
+
+.block1>h2, .block2>h2, .block3>h2, .block4>h2{
+    text-align: center;
+    font-size: 2.1vw;
+}
+
+button {
+    font-size: 1.7vw;
+    margin: 3% 25% 2% 25%;
+    width: 50%;
+    height: 5vh;
+}
+
+.footer {
+    width: 96%;
+    margin: 1% 2% 0% 2%;
+    height: 300px;
+    background-color: rgb(85, 68, 48);
+}
